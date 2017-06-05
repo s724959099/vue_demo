@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, 微軟正黑體;
+  position: relative; }
+
+[v-cloak] {
+  display: none; }
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%; }
+
+input.mdl-textfield__input {
+  font-size: 16px;
+  color: #B96B40; }
+
+html, body {
+  background-color: #343D46;
+  font-family: Helvetica, Arial, 微軟正黑體; }
+
+.topic_add {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px; }
+
+.color_add {
+  border: solid 2px white; }
+
+#app {
+  width: inherit;
+  height: inherit; }
+
+.topic_table {
+  width: 200px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px; }
+  .topic_table h5 {
+    font-weight: 900; }
+  .topic_table ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: -5x;
+    margin-left: -5px; }
+    .topic_table ul li {
+      font-size: 18px;
+      list-style-type: none; }
+      .topic_table ul li:nth-child(odd) a {
+        color: #e6e6e6;
+        background-color: rgba(0, 0, 0, 0.05); }
+      .topic_table ul li a {
+        color: #FFFFFF;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        border-radius: 10px;
+        padding-left: 10px; }
+        .topic_table ul li a:hover {
+          color: black;
+          background-color: rgba(255, 255, 255, 0.1); }
+
+.color1 {
+  background-color: #C594C5; }
+
+.color2 {
+  background-color: #F99157; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+
+input::placeholder {
+  color: #808080; }
+
+.modal-mask {
+  z-index: 9998;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease; }
+
+/*# sourceMappingURL=topic.css.map */
