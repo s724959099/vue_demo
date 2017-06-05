@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script lang="coffee">
+<script>
   export default {
     name: 'app'
   }
