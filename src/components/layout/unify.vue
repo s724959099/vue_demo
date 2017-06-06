@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="top_banner">
+    <section id="top_banner">
       <nav layout="row center">
         <a class="logo" self="center"><img
           src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/themes/logo1-default.png"></a>
@@ -28,7 +28,28 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section id="html_dsescription" layout="row-center">
+      <div class="box" layout="column-center">
+        <img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/icons/flat/01.png" alt="">
+        <div class="title">Fully Responsive</div>
+        <div class="content">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</div>
+      </div>
+      <div class="box" layout="column-center">
+        <img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/icons/flat/02.png" alt="">
+        <div class="title">HTML5 + CSS3</div>
+        <div class="content">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</div>
+      </div>
+      <div class="box" layout="column-center">
+        <img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/icons/flat/03.png" alt="">
+        <div class="title">Launch Ready</div>
+        <div class="content">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</div>
+      </div>
+    </section >
+    <!--<section id="computer" layout="row stretch-stretch">-->
+      <!--<img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/mockup/imac2.png" alt="">-->
+      <!--<div class="conteent"></div>-->
+    <!--</section>-->
   </div>
 </template>
 
@@ -37,7 +58,7 @@
   let set_top_banner_h = ()=> {
     const h = $(window).height()
     console.log(h)
-    $(".top_banner").css("height", h)
+    $("#top_banner").css("height", h)
   }
 
   export default {
