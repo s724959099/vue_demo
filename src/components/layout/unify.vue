@@ -46,10 +46,21 @@
         <div class="content">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</div>
       </div>
     </section >
-    <!--<section id="computer" layout="row stretch-stretch">-->
-      <!--<img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/mockup/imac2.png" alt="">-->
-      <!--<div class="conteent"></div>-->
-    <!--</section>-->
+    <section id="computer" layout="row stretch-stretch">
+      <div layout="column-center-center"><img src="https://htmlstream.com/preview/unify-v1.9.8/assets/img/mockup/imac2.png" alt=""></div>
+      <div class="text_area" layout="column ">
+        <h2>WE ARE UNIFY AGENCY</h2>
+        <div class="subcontent">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</div>
+        <ul>
+          <li><i class="icon-checkmark"></i>Suspendisse eget augue non dolor ultrices</li>
+          <li><i class="icon-checkmark"></i>Donec eget aliquet tortor, quis lacinia dolor</li>
+          <li><i class="icon-checkmark"></i>Curabitur ut augue at mi eleifend lobortis</li>
+          <li><i class="icon-checkmark"></i>Eleifend eget aliquet tortor, quis lacinia dolor</li>
+        </ul>
+        <span><a href="">Learn More</a></span>
+      </div>
+
+    </section>
   </div>
 </template>
 

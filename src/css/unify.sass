@@ -1,15 +1,14 @@
 @import "css_lib.sass"
 *
-  //+test(red)
+//+test(red)
 $top_nav_height: 90px
 #top_banner
   $top_color: #0d9179
-  +size(100%,100%)
+  +size(100%, 100%)
   background-image: url("../assets/img/banner1.jpg")
   background-repeat: no-repeat
   background-position: center
   background-size: cover
-
 
   nav
     color: $top_color
@@ -25,15 +24,15 @@ $top_nav_height: 90px
   .icons
     width: 130px
     > span
-      +size(20px,20px)
+      +size(20px, 20px)
       margin-right: 15px
     .counter
-      &::after
+      &:after
         position: absolute
         content: "1"
         text-align: center
         border-radius: 50%
-        +size(15px,15px)
+        +size(15px, 15px)
         font-size: 12px
         color: white
         top: -10px
@@ -42,7 +41,7 @@ $top_nav_height: 90px
 
   .bottom
     color: white
-    +size(100%,calc(100% - #{$top_nav_height}))
+    +size(100%, calc(100% - #{$top_nav_height}))
     .content
       transform: translateY(-$top_nav_height+$top_nav_height/2)
     .title
@@ -71,17 +70,64 @@ $top_nav_height: 90px
           color: black
 
 #html_dsescription
-  +size(100%,300px)
+  +size(100%, 300px)
   img
-    +size(100px,100px)
+    +size(100px, 100px)
     margin-top: 60px
   .box
-    +size(320px,100%)
+    +size(320px, 100%)
   .title
     margin-top: 20px
     margin-bottom: 10px
   .content
     font-size: 12px
 
-  //*
-  //  +test(red)
+$green_color: #76C232
+#computer
+  +size(100%, 500px)
+  background-color: #F7F7F7
+  h2
+    font-weight: 100
+    margin-top: 150px
+    &::after
+      content: ""
+      position: absolute
+      +test($green_color)
+      +size(30px,1px)
+      left: 0px
+      bottom: -10px
+
+
+  img
+    width: 450px
+  .subcontent
+    font-size: 12px
+    width: 370px
+    margin-bottom: 20px
+  i
+    margin-right: 10px
+  ul
+    padding: 0px
+  li
+    margin-top: 15px
+    margin-left: 0px
+    font-size: 12px
+    list-style-type: none
+    i
+      color: $green_color
+  span
+    margin-top: 20px
+
+    a
+      color: black
+      font-size: 14px
+      padding: 7px
+      border: solid 1px black
+      text-decoration: none
+      &:hover
+        transition-duration: .4s
+        background-color: black
+        color: white
+
+//*
+//  +test(red)
